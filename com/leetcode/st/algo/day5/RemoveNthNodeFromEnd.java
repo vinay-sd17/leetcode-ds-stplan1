@@ -1,5 +1,7 @@
 package com.leetcode.st.algo.day5;
 
+import com.leetcode.st.algo.common.ListNode;
+
 // https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/?envType=study-plan&id=algorithm-i
 public class RemoveNthNodeFromEnd {
 
@@ -36,23 +38,4 @@ public class RemoveNthNodeFromEnd {
     return dummy.next;
   }
 
-}
-
-class ListNode {
-
-  int val;
-
-  ListNode next;
-
-  ListNode() {
-  }
-
-  ListNode(int val) {
-    this.val = val;
-  }
-
-  ListNode(int val, ListNode next) {
-    this.val = val;
-    this.next = next;
-  }
 }
