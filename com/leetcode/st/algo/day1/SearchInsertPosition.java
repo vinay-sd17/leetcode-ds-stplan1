@@ -1,5 +1,7 @@
 package com.leetcode.st.algo.day1;
 
+// https://leetcode.com/problems/search-insert-position/?envType=study-plan&id=algorithm-i
+
 public class SearchInsertPosition {
 
   public static void main(String[] args) {
